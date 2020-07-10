@@ -208,7 +208,7 @@
 })(jQuery);
 
 window.emerganceSwitch = false;
-window.onclick, window.ontouchstart = function () {
+window.playEmergance = function () {
 	if (!window.emerganceSwitch) {
 		const audio = new Audio('assets/music/gymnopedie-no-1-by-kevin-macleod-from-filmmusic-io.mp3');
 		audio.play();
